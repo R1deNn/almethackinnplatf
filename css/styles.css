@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(32, 69, 68);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(159, 17, 16);
+    border-radius: 20px;
+    border: 3px solid rgb(159, 17, 16);
+}
+
+nav a {
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: rgb(32, 69, 68);
+    padding: 15px;
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+nav a:hover {
+    color: rgb(159, 17, 16);
+}
+
+.flexblock {
+    display: flex;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main img {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginmain form p,
+.loginmain form h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.loginmain form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(32, 69, 68);
+    color: white;
+}
+
+.loginmain form input {
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+
+.loginmain form button {
+    width: 12%;
+    margin-left: 44%;
+    background-color: rgb(32, 69, 68);
+    color: white;
+    border: 2px solid white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.loginmain form button:hover {
+    cursor: pointer;
+}
+
+.loginmain form a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.registrationmain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(32, 69, 68);
+    color: white;
+    text-align: center;
+}
+
+.registrationmain button {
+    width: 15%;
+    margin-left: 42.5%;
+    margin-top: 45px;
+    background-color: rgb(32, 69, 68);
+    color: white;
+    border: 2px solid white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.registrationmain a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.registrationmain p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.login {
+    background-color: rgb(32, 69, 68);
+
+}
+
+.regmain form p,
+.regmain form h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.regmain form {
+    background-color: rgb(32, 69, 68);
+    color: white;
+}
+
+.regmain form input {
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+
+.regmain form button {
+    width: 17%;
+    margin-top: 15px;
+    margin-left: 42%;
+    background-color: rgb(32, 69, 68);
+    color: white;
+    border: 2px solid white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.regmain form button:hover {
+    cursor: pointer;
+}
+
+.regmain {
+    margin-top: 10%;
+}
+
+.regmain form a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.checkboxfl {
+    margin-left: 33.5%;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.checkboxfl label {
+    margin-left: 15px;
+}
+
+.loginmain {
+    margin-top: 10%;
+}
+
+.block2 {
+    background-color: rgb(32, 69, 68);
+    margin-top: -6px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 700px;
+    padding-top: 10%;
+    padding-bottom: 50px;
+}
+
+.leftsidebl2 {
+    width: 30%;
+    margin-left: 15px;
+}
+
+.rightsidebl2 {
+    margin-top: -5px;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.leftsidebl2 img {
+    position: absolute;
+}
+
+.vspblock {
+    text-align: justify;
+    color: white;
+    font-size: 19px;
+    max-width: 85%;
+}
+
+.disimg {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.videof {
+
+    width: 500px;
+    height: 300px;
+    margin-left: 25%;
+}
+
+video {
+    border-top: 13px solid white;
+    border-left: 12px solid white;
+    border-right: 12px solid white;
+    border-bottom: 9px solid white;
+    border-radius: 9px;
+}
+
+.footer {
+    background-image: url(../img/footer.svg);
+    width: 100%;
+    height: 480px;
+}
+
+.footer button {
+    border: 4px solid rgb(32, 69, 68);
+    color: rgb(32, 69, 68);
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    font-size: 21px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 350%);
+    transition: ease-out;
+    transition-duration: 0.3s;
+}
+
+.footer button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 69, 68);
+    color: white;
+}
+
+.allrightsreserved {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    top: 50%;
+    width: 15%;
+    left: 42%;
+    height: 15%;
+    border-radius: 15px;
+    font-size: 20px;
+    color: rgb(32, 69, 68);
+}
+
+.calendar {
+    display: flex;
+    flex-flow: column;
+}
+
+.calendar .header .month-year {
+    font-size: 20px;
+    font-weight: bold;
+    color: #636e73;
+    padding: 20px 0;
+}
+
+.calendar .days {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.calendar .days .day_name {
+    width: calc(100% / 7);
+    border-right: 1px solid rgb(32, 69, 68);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #818589;
+    color: #fff;
+    background-color: rgb(32, 69, 68);
+}
+
+.calendar .days .day_name:nth-child(7) {
+    border: none;
+}
+
+.calendar .days .day_num {
+    display: flex;
+    flex-flow: column;
+    width: calc(100% / 7);
+    border-right: 1px solid #e6e9ea;
+    border-bottom: 1px solid #e6e9ea;
+    padding: 15px;
+    font-weight: bold;
+    color: #7c878d;
+    cursor: pointer;
+    min-height: 100px;
+}
+
+.calendar .days .day_num span {
+    display: inline-flex;
+    width: 30px;
+    font-size: 14px;
+}
+
+.calendar .days .day_num .event {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-color: rgb(159, 17, 16);
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.calendar .days .day_num .event.green {
+    background-color: rgb(32, 69, 68);
+}
+
+.calendar .days .day_num .event.blue {
+    background-color: rgb(159, 17, 16);
+}
+
+.calendar .days .day_num .event.red {
+    background-color: rgb(32, 69, 68);
+}
+
+.calendar .days .day_num:nth-child(7n+1) {
+    border-left: 1px solid #e6e9ea;
+}
+
+.calendar .days .day_num:hover {
+    background-color: #fdfdfd;
+}
+
+.calendar .days .day_num.ignore {
+    background-color: #fdfdfd;
+    color: #ced2d4;
+    cursor: inherit;
+}
+
+.calendar .days .day_num.selected {
+    background-color: #f1f2f3;
+    cursor: inherit;
+}
+
+.grid {
+    padding-top: 90px;
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-content: space-around;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+
+.item img {
+    border: 9px solid rgb(32, 69, 68);
+    border-radius: 12px;
+}
+
+.item {
+    height: 400px;
+    width: 600px;
+}
+
+.item h1, .item h2,
+.item h3,
+.item p {
+    color: rgb(32, 69, 68);
+    padding-bottom: 15px;
+}
+
+.item h1 {
+    font-size: 35px;
+}
+
+.item p {
+    font-size: 22px;
+    font-weight: lighter;
+}
+.item form button{
+    width: 300px;
+    height: 50px;
+    border: 3px solid rgb(32, 69, 68);
+    border-radius: 12px;
+    background-color: #fff;
+    transition: ease-in;
+    transition-duration: 0.2s;
+}
+.item form button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(32, 69, 68);
+}
+.cabinetform{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 250%;
+    font-size: 21px;
+    color: white;
+}
+.savebtn{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(32, 69, 68);
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 2px solid rgb(38, 207, 69);
+    border-radius: 12px;
+    transition: ease-in;
+    transition-duration: 0.1s;
+}
+.savebtn:hover{
+    border-radius: 14px;
+    border: 3px solid rgb(38, 207, 69);
+    cursor: pointer;
+}
